@@ -56,7 +56,7 @@ async function scrapeChampionData(vendorPages) {
                     champion.companySize = companySize;
                 }
 
-                champion.source = url; // Add source URL
+                champion.source = url;
                 champions.push(champion);
             }
 
